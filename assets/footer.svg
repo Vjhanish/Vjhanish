@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" width="1000" height="100">
+  <defs>
+    <!-- Wave gradient -->
+    <linearGradient id="waveGrad" x1="0" y1="0" x2="1000" y2="0">
+      <stop offset="0%" stop-color="#fde047"/>
+      <stop offset="30%" stop-color="#facc15"/>
+      <stop offset="60%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <filter id="ghostGlow">
+      <feGaussianBlur stdDeviation="1.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="100" fill="#0a0a0f" rx="8"/>
+
+  <!-- Wave shape -->
+  <path d="M 0,60 
+           Q 50,30 100,45 
+           Q 150,60 200,40 
+           Q 250,20 300,45 
+           Q 350,70 400,40 
+           Q 450,10 500,40 
+           Q 550,70 600,35 
+           Q 650,0 700,40 
+           Q 750,80 800,35 
+           Q 850,10 900,40 
+           Q 950,70 1000,45 
+           L 1000,100 L 0,100 Z" 
+        fill="url(#waveGrad)" opacity="0.15"/>
+
+  <!-- Pac-Man peeking from left edge -->
+  <g transform="translate(30, 68)">
+    <path d="M 0,0 L 14,-7 A 16 16 0 1 0 14,7 Z" fill="#fde047"/>
+  </g>
+
+  <!-- Small pellet -->
+  <circle cx="55" cy="70" r="1.5" fill="#fde047" opacity="0.5"/>
+
+  <!-- Ghost (Blinky) peeking from right -->
+  <g transform="translate(940, 65)">
+    <path d="M -10,-8 Q -10,-14 -6,-14 L 6,-14 Q 10,-14 10,-8 L 10,6 Q 7,10 3,6 Q 0,10 -3,6 Q -7,10 -10,6 Z" fill="#ff0000" filter="url(#ghostGlow)" opacity="0.8"/>
+    <circle cx="-4" cy="-5" r="2" fill="white"/>
+    <circle cx="4" cy="-5" r="2" fill="white"/>
+    <circle cx="-3" cy="-5" r="1" fill="#1a1a2e"/>
+    <circle cx="5" cy="-5" r="1" fill="#1a1a2e"/>
+  </g>
+
+  <!-- Ghost (Clyde) peeking more left -->
+  <g transform="translate(965, 68)">
+    <path d="M -8,-6 Q -8,-11 -5,-11 L 5,-11 Q 8,-11 8,-6 L 8,5 Q 5,8 2,5 Q 0,8 -2,5 Q -5,8 -8,5 Z" fill="#ffb852" filter="url(#ghostGlow)" opacity="0.6"/>
+    <circle cx="-3" cy="-4" r="1.5" fill="white"/>
+    <circle cx="3" cy="-4" r="1.5" fill="white"/>
+    <circle cx="-2" cy="-4" r="0.8" fill="#1a1a2e"/>
+    <circle cx="4" cy="-4" r="0.8" fill="#1a1a2e"/>
+  </g>
+
+  <!-- Scattered pellets along wave -->
+  <g fill="#fde047" opacity="0.2">
+    <circle cx="150" cy="55" r="1.5"/>
+    <circle cx="300" cy="48" r="1.5"/>
+    <circle cx="450" cy="42" r="1.5"/>
+    <circle cx="600" cy="38" r="1.5"/>
+    <circle cx="750" cy="45" r="1.5"/>
+    <circle cx="880" cy="52" r="1.5"/>
+  </g>
+
+  <!-- Text -->
+  <text x="500" y="75" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#6b7280" letter-spacing="3">CodeByAbi • 2025</text>
+</svg>
