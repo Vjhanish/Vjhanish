@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" width="760" height="380" font-family="'Courier New', monospace">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#050509"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="wallGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#1e3a8a"/>
+    </linearGradient>
+    <filter id="wallGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="pmGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Outer frame -->
+  <rect x="2" y="2" width="756" height="376" rx="14" fill="url(#bgGrad)" stroke="#1e3a8a" stroke-width="2"/>
+
+  <!-- Title above scene -->
+  <text x="380" y="28" text-anchor="middle" font-size="22" font-weight="900" letter-spacing="6" fill="#fde047" filter="url(#pmGlow)">🟡  C O D E B Y A B I  🍒</text>
+  <text x="380" y="50" text-anchor="middle" font-size="10" letter-spacing="4" fill="#a855f7">▸ FULL-STACK DEVELOPER · MERN SPECIALIST · <tspan fill="#22d3ee">CODING IN THE GRAVEYARD</tspan> ◂</text>
+
+  <!-- HUD bar -->
+  <rect x="2" y="62" width="756" height="22" fill="#0a0a0f" stroke="#1e3a8a" stroke-width="1"/>
+  <text x="20" y="78" font-size="11" fill="#22d3ee" letter-spacing="2">1UP  <tspan fill="#fde047" font-weight="bold" font-size="13">024680</tspan></text>
+  <text x="380" y="78" text-anchor="middle" font-size="11" fill="#a855f7" font-weight="bold" letter-spacing="2">◀ PAC-MAN ▶</text>
+  <text x="740" y="78" text-anchor="end" font-size="14" fill="#fde047">♥♥♥</text>
+
+  <!-- Maze walls (clipped to scene area) -->
+  <g filter="url(#wallGlow)">
+    <!-- Outer rectangle -->
+    <rect x="60"  y="100" width="640" height="4" fill="url(#wallGrad)"/>
+    <rect x="60"  y="320" width="640" height="4" fill="url(#wallGrad)"/>
+    <rect x="60"  y="100" width="4"   height="220" fill="url(#wallGrad)"/>
+    <rect x="696" y="100" width="4"   height="220" fill="url(#wallGrad)"/>
+    <!-- Mid vertical posts -->
+    <rect x="362" y="105" width="4"   height="50" fill="url(#wallGrad)"/>
+    <rect x="394" y="220" width="4"   height="50" fill="url(#wallGrad)"/>
+    <!-- Mid horizontal bars -->
+    <rect x="150" y="170" width="100" height="4" fill="url(#wallGrad)"/>
+    <rect x="510" y="170" width="100" height="4" fill="url(#wallGrad)"/>
+  </g>
+
+  <!-- "Codebyabi" name reveal (behind everything, opacity animates) -->
+  <text x="380" y="225" text-anchor="middle" font-size="48" font-weight="900" letter-spacing="6" fill="#fde047" filter="url(#pmGlow)" opacity="0.06">
+    Codebyabi
+    <animate attributeName="opacity"
+             values="0.06; 0.06; 0.40; 0.40; 0.60; 0.60; 0.80; 0.80; 1.00; 1.00; 0.40; 0.06"
+             keyTimes="0; 0.12; 0.13; 0.24; 0.25; 0.36; 0.37; 0.49; 0.50; 0.85; 0.95; 1"
+             dur="10s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Static yellow dots (3 rows: top y=130, mid y=205, bottom y=270) -->
+  <g fill="#fde047">
+    <!-- Top row y=130 -->
+    <circle cx="80"  cy="130" r="3"/>
+    <circle cx="120" cy="130" r="3"/>
+    <circle cx="160" cy="130" r="3"/>
+    <circle cx="200" cy="130" r="3"/>
+    <circle cx="240" cy="130" r="3"/>
+    <circle cx="380" cy="130" r="3"/>
+    <circle cx="420" cy="130" r="3"/>
+    <circle cx="460" cy="130" r="3"/>
+    <circle cx="500" cy="130" r="3"/>
+    <circle cx="540" cy="130" r="3"/>
+    <circle cx="580" cy="130" r="3"/>
+    <circle cx="620" cy="130" r="3"/>
+    <circle cx="660" cy="130" r="3"/>
+    <!-- Mid row y=205 -->
+    <circle cx="80"  cy="205" r="3"/>
+    <circle cx="120" cy="205" r="3"/>
+    <circle cx="280" cy="205" r="3"/>
+    <circle cx="320" cy="205" r="3"/>
+    <circle cx="440" cy="205" r="3"/>
+    <circle cx="480" cy="205" r="3"/>
+    <circle cx="620" cy="205" r="3"/>
+    <circle cx="660" cy="205" r="3"/>
+    <!-- Bottom row y=270 -->
+    <circle cx="80"  cy="270" r="3"/>
+    <circle cx="120" cy="270" r="3"/>
+    <circle cx="160" cy="270" r="3"/>
+    <circle cx="200" cy="270" r="3"/>
+    <circle cx="240" cy="270" r="3"/>
+    <circle cx="280" cy="270" r="3"/>
+    <circle cx="320" cy="270" r="3"/>
+    <circle cx="360" cy="270" r="3"/>
+    <circle cx="400" cy="270" r="3"/>
+    <circle cx="440" cy="270" r="3"/>
+    <circle cx="480" cy="270" r="3"/>
+    <circle cx="520" cy="270" r="3"/>
+    <circle cx="560" cy="270" r="3"/>
+    <circle cx="600" cy="270" r="3"/>
+    <circle cx="640" cy="270" r="3"/>
+  </g>
+
+  <!-- Power pellets (pulsing) -->
+  <circle cx="80" cy="200" r="6" fill="#fde047" filter="url(#pmGlow)">
+    <animate attributeName="r" values="7;4;7" dur="0.9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.4;1" dur="0.9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="680" cy="200" r="6" fill="#fde047" filter="url(#pmGlow)">
+    <animate attributeName="r" values="7;4;7" dur="0.9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.4;1" dur="0.9s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Ghost 1 (red Blinky) at x=24% (182) y=130, eaten at t=1.25s -->
+  <text x="182" y="135" font-size="32" fill="#ef4444" filter="url(#pmGlow)" text-anchor="middle">
+    👻
+    <animate attributeName="opacity"
+             values="1; 1; 0; 0; 1"
+             keyTimes="0; 0.12; 0.135; 0.99; 1"
+             dur="10s" repeatCount="indefinite"/>
+  </text>
+  <!-- Burst at ghost 1 position -->
+  <text x="182" y="160" font-size="28" fill="#fde047" text-anchor="middle" opacity="0">
+    ✦
+    <animate attributeName="opacity"
+             values="0; 0; 1; 0; 0"
+             keyTimes="0; 0.125; 0.13; 0.16; 1"
+             dur="10s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Ghost 2 (pink Pinky) at x=43% (327) y=210, eaten at t=2.5s -->
+  <text x="327" y="215" font-size="32" fill="#f472b6" filter="url(#pmGlow)" text-anchor="middle">
+    👻
+    <animate attributeName="opacity"
+             values="1; 1; 0; 0; 1"
+             keyTimes="0; 0.245; 0.255; 0.99; 1"
+             dur="10s" repeatCount="indefinite"/>
+  </text>
+  <text x="327" y="240" font-size="28" fill="#fde047" text-anchor="middle" opacity="0">
+    ✦
+    <animate attributeName="opacity"
+             values="0; 0; 1; 0; 0"
+             keyTimes="0; 0.245; 0.25; 0.28; 1"
+             dur="10s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Ghost 3 (cyan Inky) at x=61% (464) y=170, eaten at t=3.75s -->
+  <text x="464" y="175" font-size="32" fill="#22d3ee" filter="url(#pmGlow)" text-anchor="middle">
+    👻
+    <animate attributeName="opacity"
+             values="1; 1; 0; 0; 1"
+             keyTimes="0; 0.365; 0.375; 0.99; 1"
+             dur="10s" repeatCount="indefinite"/>
+  </text>
+  <text x="464" y="200" font-size="28" fill="#fde047" text-anchor="middle" opacity="0">
+    ✦
+    <animate attributeName="opacity"
+             values="0; 0; 1; 0; 0"
+             keyTimes="0; 0.365; 0.37; 0.40; 1"
+             dur="10s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Ghost 4 (orange Clyde) at x=80% (608) y=240, eaten at t=5s (CLIMAX) -->
+  <text x="608" y="245" font-size="32" fill="#fb923c" filter="url(#pmGlow)" text-anchor="middle">
+    👻
+    <animate attributeName="opacity"
+             values="1; 1; 0; 0; 1"
+             keyTimes="0; 0.49; 0.505; 0.99; 1"
+             dur="10s" repeatCount="indefinite"/>
+  </text>
+  <text x="608" y="270" font-size="34" fill="#fde047" text-anchor="middle" opacity="0" filter="url(#pmGlow)">
+    ✦
+    <animate attributeName="opacity"
+             values="0; 0; 1; 0; 0"
+             keyTimes="0; 0.495; 0.50; 0.55; 1"
+             dur="10s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Pac-Man: glides left→right (0-5s), stays (5-9s), fades & resets (9-10s) -->
+  <g>
+    <!-- Body -->
+    <circle cx="0" cy="0" r="20" fill="#fde047" filter="url(#pmGlow)"/>
+    <!-- Eye -->
+    <circle cx="-4" cy="-7" r="2.5" fill="#000"/>
+    <!-- Mouth wedge (chomps by animating points) -->
+    <polygon points="0,0 24,-8 24,8" fill="#0a0a0f">
+      <animate attributeName="points"
+               values="0,0 24,-8 24,8; 0,0 14,-3 14,3; 0,0 24,-8 24,8"
+               dur="0.3s" repeatCount="indefinite"/>
+    </polygon>
+    <!-- Position animation: glide from x=80 to x=608 over 5s, hold, then reset -->
+    <animateTransform attributeName="transform" type="translate"
+                      values="80 270; 80 270; 608 270; 608 270; 608 270; 80 270"
+                      keyTimes="0; 0.05; 0.50; 0.85; 0.95; 1"
+                      dur="10s" repeatCount="indefinite"/>
+    <!-- Opacity: hide during reset -->
+    <animate attributeName="opacity"
+             values="1; 1; 1; 0; 0; 1"
+             keyTimes="0; 0.85; 0.90; 0.95; 0.99; 1"
+             dur="10s" repeatCount="indefinite"/>
+  </g>
+</svg>
