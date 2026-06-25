@@ -190,9 +190,9 @@ philosophy: "Clean code over clever code — always."
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Vjhanish/Vjhanish/output/pacman-contribution-graph-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Vjhanish/Vjhanish/output/pacman-contribution-graph.svg" />
-  <img alt="Pac-Man Contribution Graph" src="https://raw.githubusercontent.com/Vjhanish/Vjhanish/output/pacman-contribution-graph.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abi-de-jo/Abi-de-jo/output/pacman-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abi-de-jo/Abi-de-jo/output/pacman-contribution-graph.svg" />
+  <img alt="Pac-Man Contribution Graph" src="https://raw.githubusercontent.com/Abi-de-jo/Abi-de-jo/output/pacman-contribution-graph.svg" width="100%" />
 </picture>
 
 <br>
@@ -201,13 +201,3 @@ philosophy: "Clean code over clever code — always."
 </div>
 
 ---
-
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                         FOOTER                                 -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
-<div align="center">
-
-<img src="assets/footer.svg" width="100%" alt="Pac-Man Footer" />
-
-</div>
