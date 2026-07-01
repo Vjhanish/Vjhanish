@@ -1,119 +1,154 @@
 <div align="center">
 
-# [HANISH J](https://github.com/Vjhanish)
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,50:2563eb,100:06b6d4&text=HANISH%20J&fontColor=ffffff&fontSize=60&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20•%20Full%20Stack%20Developer%20•%20Problem%20Solver&descAlignY=58"/>
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=FDE047&center=true&vCenter=true&width=500&lines=Eating+bugs+for+breakfast;Chasing+ghosts+daily;Power+pellet+mode+%E2%80%A2+ON;Waka+waka+waka;Full-Stack+Developer" alt="Typing SVG" />
-</a>
+# ⚡ AI Engineer • Full Stack Developer
 
-<!-- Pac-Man decorative separator -->
-<pre><b style="color:#fde047">ᗧ</b><span style="color:#6b7280">·</span><span style="color:#ff0000">•</span><span style="color:#ffb8ff">•</span><span style="color:#00ffff">•</span><span style="color:#ffb852">•</span></pre>
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=24&duration=3000&pause=800&color=38BDF8&center=true&vCenter=true&width=700&lines=Building+AI+Applications;Creating+Modern+Web+Experiences;Machine+Learning+Explorer;Open+Source+Contributor;Always+Learning+Something+New"/>
 
-<br><br>
+![](https://komarev.com/ghpvc/?username=Vjhanish&style=for-the-badge&color=0ea5e9)
 
-<!-- VISITOR BADGE -->
-
-## 🌐 Connect With Me
-
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/_hxnish._/)
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hanish-j-751a9a329/)
-
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white)](mailto:hanish14350@gmail.com)
+</div>
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                         ABOUT                                  -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
-## 👨‍💻 About Me
+# ⚙️ SYSTEM INFO
 
 ```yaml
-name: Hanish Jamberi
-role: AI & ML Developer
-stack:
-  - React / TypeScript / Next.js
-  - Node.js / Express / MongoDB
-  - HTML5 / CSS3 / Tailwind
-focus: Production-grade web applications
-philosophy: "Clean code over clever code — always."
+Name      : Hanish Jamberi
+Education : B.E Computer Science (AI & ML)
+Role      : AI Engineer | Full Stack Developer
+Location  : Tamil Nadu, India
+
+Mission:
+  "Build intelligent software that solves real-world problems."
+
+Currently Learning:
+  - AI Agents
+  - Large Language Models
+  - Cloud Computing
+  - Full Stack Development
+
+Dream:
+  - Work at OpenAI
 ```
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                       TECH STACK                               -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-## ✨ Developer Quote
+# 🚀 CONNECT
 
-> "Every line of code is a step closer to the future I want to build."
+<div align="center">
 
----
-# 💻 Tech Stack:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hanish-j-751a9a329)
 
-### 🎨 Frontend & Web Design
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/_hxnish._/)
 
-![React](https://img.shields.io/badge/react-%2320232A.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
-![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hanish14350@gmail.com)
+
+</div>
 
 ---
 
-### 📱 Mobile Development
+# 🧠 DEVELOPER PHILOSOPHY
 
-![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
-
----
-
-### 🐍 Programming Languages
-
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
+> ### "Technology should simplify life—not complicate it."
 
 ---
 
-### 📂 Backend & Databases
+# ⚡ MY TECH UNIVERSE
 
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff&style=for-the-badge)
-![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
-![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
+## 🎨 Frontend
 
----
+<p align="center">
 
-### ☁️ Hosting & Cloud Services
+<img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,tailwind"/>
 
-![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google%20Cloud-%234285F4.svg?logo=google-cloud&logoColor=white&style=for-the-badge)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?logo=Cloudflare&logoColor=white&&style=for-the-badge)
+</p>
 
 ---
 
-### 🤖 Data Science & Machine Learning
+## ⚙️ Backend
 
-![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,php"/>
+
+</p>
 
 ---
 
-### 🛠️ Software & Tools
+## 📱 Mobile
 
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Visual Studio Code](https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=vsc&logoColor=white&style=for-the-badge)
-![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white)
-![FFmpeg](https://shields.io/badge/FFmpeg-%23171717.svg?logo=ffmpeg&style=for-the-badge&labelColor=171717&logoColor=5cb85c)
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=flutter,dart"/>
+
+</p>
+
+---
+
+## 🤖 AI • ML
+
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch"/>
+
+</p>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas"/>
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy"/>
+<img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge"/>
+
+</p>
+
+---
+
+## 💾 Database
+
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=mysql,sqlite"/>
+
+<img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white"/>
+
+</p>
+
+---
+
+## ☁ Cloud
+
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=gcp,cloudflare,docker,git,github"/>
+
+</p>
+
+---
+
+## 🛠 Tools
+
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=vscode,wordpress"/>
+
+<img src="https://img.shields.io/badge/FFmpeg-171717?style=for-the-badge&logo=ffmpeg"/>
+
+</p>
+
+---
+
+# 🎯 CURRENT GOALS
+
+```text
+▣ Build AI SaaS Products
+▣ Learn Advanced System Design
+▣ Master Cloud Deployment
+▣ Contribute to Open Source
+▣ Become an AI Engineer at OpenAI
+```
 
 ---
 
